@@ -113,3 +113,37 @@ body{
   transform: rotate(90deg);
   transition-delay: 0.4s;
 }
+
+@media screen and (max-width: 600px) {
+  .envelope-wrapper > .envelope {
+    width: 200px;
+    height: 150px;
+  }
+
+  .envelope > .letter {
+    width: 44%;
+    height: 60%;
+  }
+
+  .heart {
+    width: 12px;
+    height: 12px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .envelope-wrapper > .envelope {
+    width: 400px;
+    height: 300px;
+  }
+
+  .envelope > .letter {
+    width: 64%;
+    height: 85%;
+  }
+
+  .heart {
+    width: 20px;
+    height: 20px;
+  }
+}
