@@ -6,7 +6,7 @@
   --envelope-cover: #e6cfa7;
   --shadow-color: rgba(0, 0, 0, 0.2);
   --txt-color: #444;
-  --heart-color: rgb(252, 8, 73);
+  --heart-color: rgb(252, 8, 231);
 }
 body{
   margin: 0;
@@ -89,10 +89,10 @@ body{
 .heart:after {
   content: "";
   position: absolute;
-  width:  0;
+  width: 15px;
   height: 15px;
   background-color: var(--heart-color);
-  border-radius: 0%;
+  border-radius: 50%;
 }
 .heart:before {
   top: -7.5px;
